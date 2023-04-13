@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* #experiment code {
+  color: white;
+  display: inline-block;
+  width: auto;
+  max-width: calc(100% - 225px);
+  margin-left: 10px;
+  vertical-align: top;
+} */
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#button-container button {
+  margin: 0 5px;
+}
+
+#experiment {
+  display: flex;
+  flex-direction: column;
+}
+
+#experiment code {
+  color: white;
+  max-width: 70%;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
